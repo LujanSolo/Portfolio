@@ -1,4 +1,3 @@
-/* remove default browser settings */
 *{
   margin: 0;
   padding: 0;
@@ -11,11 +10,9 @@ html{
 }
 
 body{
-  border: .4rem solid black;
-  
+  max-width: 96rem;
 }
 .master{
-  border: 2px green solid;
   max-width: 960px;
   margin: 10rem 3rem;
 }
@@ -40,12 +37,11 @@ body{
 }
 
 #profile-pic{
-  height: 20rem;
-  width: 20rem;
-  border-radius: 10rem;
-  margin-right:2rem;
-  border: .1rem solid rgb(248, 215, 115);
-  box-shadow: .2rem .2rem 3rem .2rem gold;
+  width: 25rem;
+  border-radius: 20rem;
+  margin: 2rem;
+  border: 3rem groove rgba(157, 200, 224, 0.75);
+  box-shadow: .2rem .2rem 4rem .3rem rgb(131, 188, 189);
 }
 
 .icon-text{
