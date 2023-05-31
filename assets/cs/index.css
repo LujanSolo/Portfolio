@@ -1,0 +1,38 @@
+/* remove default browser settings */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+  background: slategray;
+}
+
+body{
+  border: .4rem solid black;
+  
+}
+.master{
+  border: 2px green solid;
+  max-width: 960px;
+  margin: 10rem 3rem;
+}
+
+.icon-row{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.main-icons{
+  width: 20rem;
+  margin: 1rem;
+}
+
+#profile-pic{
+  height: 20rem;
+  width: 20rem;
+  border-radius: 10rem;
+}
