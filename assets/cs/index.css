@@ -61,3 +61,77 @@ body{
   text-shadow: .6rem .4rem 1.1rem rgb(69, 181, 114);
   
 }
+
+/* PROJECT CARD SECTION */
+.proj-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  overflow-x: auto;
+  margin: 3rem;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  min-width: 300px;
+  background-color: rgb(47, 84, 101);
+  border: 2px solid silver;
+  border-radius: 12px;
+}
+
+.card-header {
+  margin-bottom: 1rem;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.card-header,
+.card-footer {
+  background-color: rgb(190, 157, 11);
+}
+
+.card-footer {
+  border-radius: 0px 0px 8px 8px;
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  color: rgb(47, 84, 101);
+  font-size: 20px;
+  padding-top: 8px;
+}
+
+.card-image {
+  height: 230px;
+  margin: 0rem 0.5rem 0rem 0.5rem;
+  border: 1px solid rgb(217, 184, 38);
+}
+
+.card-desc {
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: oblique;
+  line-height: 1.5rem;
+  margin: 1rem;
+  height: 120px;
+  color: white;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+  color: white;
+  font-family: Arial;
+  line-height: 1rem;
+}
+
+.mini-icons{
+  width: 5rem;
+  padding: 1rem;
+}

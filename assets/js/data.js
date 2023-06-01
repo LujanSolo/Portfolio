@@ -6,7 +6,7 @@ export const projectsArray = [
     desc: "Educational app that provides data on the planets of the Solar System, with secure login and client database for note keeping.",
     online: "https://stormy-sands-64982.herokuapp.com/",
     github: "https://github.com/Proper-Stevo/SpaceInvaders",
-    deployIcon: "assets/images/heroku.png",
+    icon: "assets/images/github-logo.png",
     class: "heroku-icon"
   },
   {
@@ -16,7 +16,7 @@ export const projectsArray = [
     desc: "A full-stack browser-board game where impulse shopping must be leveraged against money and happiness until the finish line is reached.",
     online: "https://impulse-the-game.herokuapp.com/",
     github: "https://github.com/LujanSolo/Impulse",
-    deployIcon: "assets/images/heroku.png",
+    icon: "assets/images/heroku.png",
     class: "heroku-icon"
   },
   {
@@ -26,7 +26,8 @@ export const projectsArray = [
     desc: "Discover and re-discover games from all eras based on user's genre preference and type of gaming platform.",
     online: "https://camilleyong.github.io/the-catered-gamer/",
     github: "https://github.com/camilleyong/the-catered-gamer",
-    deployIcon: "assets/images/github-logo.png"
+    icon: "assets/images/github-logo.png",
+    class: "github-icon"
   },
   {
     id: 4,
@@ -35,7 +36,8 @@ export const projectsArray = [
     desc: "Hourly rows from 9am to 5pm help keep you on track through the day. Rows are color coded to represent past/present/future.",
     online: "https://lujansolo.github.io/workday-scheduler/",
     github: "https://github.com/LujanSolo/workday-scheduler",
-    deployIcon: "assets/images/github-logo.png"
+    icon: "assets/images/github-logo.png",
+    class: "github-icon"
   },
   {
     id: 5,
@@ -44,6 +46,6 @@ export const projectsArray = [
     desc: "A Firebase app where users can give positive feedback to others whom they feel deserve recognition, encouragement, or praise!",
     online: "https://shoutoutyourfriends.netlify.app/",
     github: "https://github.com/LujanSolo/shout-out",
-    deployIcon: "assets/images/github-logo.png"//get netlify icon
+    icon: "assets/images/github-logo.png"//get netlify icon
   }
 ]

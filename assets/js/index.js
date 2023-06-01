@@ -1,10 +1,10 @@
-import { projectsArray } from "./data";
+import { projectsArray } from "./data.js";
 
 
-function getProjectHtml(){
+function getProjectHtml() {
   let projectHtml = '';
 
-  projectsArray.forEach((project) =>{
+  projectsArray.forEach((project) => {
     projectHtml += `
       <div class="project-card">
       
@@ -25,10 +25,10 @@ function getProjectHtml(){
 
         <footer class="card-footer">
           <p>DEPLOYED AT</p>
-          <a href="${project.online}">
+          <a href="${project.online}" target="_blank">
             <img
-              class="${project.class}"
-              src="${project.deploy-icon}"
+              class="mini-icons"
+              src="${project.icon}"
               alt="icon for the hosting server"
             >
           </a>
@@ -36,10 +36,10 @@ function getProjectHtml(){
           <fr></fr>
 
           <p>GITHUB REPO</p>
-          <a href="${project.github}">
+          <a href="${project.github}" target="_blank">
             <img
-              class="${project.class}"
-              src="${project.deploy-icon}"
+              class="mini-icons"
+              src="${project.icon}"
               alt="icon for github"
             >
           </a>
@@ -51,7 +51,8 @@ function getProjectHtml(){
 };
 
 
-function render(){
+function render() {
   document.getElementById('projects').innerHTML = getProjectHtml();
 }
 
+render()
