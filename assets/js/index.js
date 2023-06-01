@@ -1,5 +1,8 @@
 import { projectsArray } from "./data.js";
 
+document.addEventListener('click', (e) =>{
+  
+});
 
 function getProjectHtml() {
   let projectHtml = '';
@@ -24,7 +27,7 @@ function getProjectHtml() {
         </h3>
 
         <footer class="card-footer">
-          <p>DEPLOYED AT</p>
+          <p class="icon-desc">DEPLOYED VIA</p>
           <a href="${project.online}" target="_blank">
             <img
               class="card-icons"
@@ -33,9 +36,7 @@ function getProjectHtml() {
             >
           </a>
 
-          <fr></fr>
-
-          <p>GITHUB REPO</p>
+          <p class="icon-desc">GITHUB REPO</p>
           <a href="${project.github}" target="_blank">
             <img
               class="card-icons"
