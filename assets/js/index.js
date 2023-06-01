@@ -27,7 +27,7 @@ function getProjectHtml() {
           <p>DEPLOYED AT</p>
           <a href="${project.online}" target="_blank">
             <img
-              class="mini-icons"
+              class="card-icons"
               src="${project.icon}"
               alt="icon for the hosting server"
             >
@@ -38,7 +38,7 @@ function getProjectHtml() {
           <p>GITHUB REPO</p>
           <a href="${project.github}" target="_blank">
             <img
-              class="mini-icons"
+              class="card-icons"
               src="${project.icon}"
               alt="icon for github"
             >
