@@ -17,6 +17,7 @@
     <section class="master">
       <div class="icon-row row-1 row">
         <img
+          data-project="project-btn"
           src="/assets/images/proj-icon.png"
           class="main-icons glass-effect"
           alt="a custom-made icon for developer's projects"
@@ -40,8 +41,9 @@
         <img
           id="profile-pic"
           src="/assets/images/lujan-profile2.png"
-          class="profile-pic"
+          class="profile-pic glass-effect"
           alt="Jamie Lujan, the developer"
+          data-about="about-btn"
         />
 
         <div class="icon-text">
@@ -61,8 +63,12 @@
       </div>
     </section>
 
-    <section id="projects" class="proj-section">
+    <section id="projects" class="proj-section hidden">
       <!-- project html generated from js -->
+    </section>
+
+    <section  id="about-me" class="about-me hidden">
+      <h1 class="test">about me</h1>
     </section>
     <script src="assets/js/index.js" type="module"></script>
   </body>

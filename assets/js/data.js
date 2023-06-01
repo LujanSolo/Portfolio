@@ -47,7 +47,7 @@ export const projectsArray = [
     desc: "A Firebase app where users can give positive feedback to others whom they feel deserve recognition, encouragement, or praise!",
     online: "https://shoutoutyourfriends.netlify.app/",
     github: "https://github.com/LujanSolo/shout-out",
-    hosticon: "assets/images/netlify.png",
+    hosticon: "assets/images/netlify2.png",
     giticon: "assets/images/github-logo.png"
   }
 ]

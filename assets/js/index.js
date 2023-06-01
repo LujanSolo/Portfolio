@@ -1,8 +1,22 @@
 import { projectsArray } from "./data.js";
 
-document.addEventListener('click', (e) =>{
-  
+document.addEventListener('click', (e)=>{
+  if(e.target.dataset.project){
+    handleProjectsClick(e.target.dataset.project)
+  }
+  else if(e.target.dataset.about){
+    console.log('clicked')
+    handleAboutClick(e.target.dataset.about)
+  }
 });
+
+function handleProjectsClick(ii){
+  document.getElementById('projects').classList.toggle('hidden');
+}
+
+function handleAboutClick(ii){
+  document.getElementById('about-me').classList.toggle('hidden')
+}
 
 function getProjectHtml() {
   let projectHtml = '';

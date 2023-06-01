@@ -16,7 +16,7 @@ body{
 }
 
 .row{
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 
 .icon-row{
@@ -29,7 +29,7 @@ body{
 }
 
 .row-3{
-  margin-left: 3rem;
+  /* margin-left: 3rem; */
 }
 
 .about-row{
@@ -37,6 +37,7 @@ body{
   align-items: center;
   justify-content: center;
   gap: 3rem;
+  padding-right: 2rem;
 }
 
 .main-icons{
@@ -49,7 +50,7 @@ body{
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
   box-shadow: 0 8px 32px 8 rgb(19, 2, 106);
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(33, 30, 30, 0.518);
   border-radius: 10px;
 }
 
@@ -61,9 +62,8 @@ body{
   margin: 0;
   padding: 0;
   width: 21rem;
-  height: 21rem;
   border-radius: 20rem;
-  border: 1rem groove rgb(58, 88, 122);
+  border: .2rem solid rgb(132, 173, 189);
   box-shadow: .1rem .1rem 10rem 1rem rgb(131, 188, 189);
 }
 
@@ -71,7 +71,7 @@ body{
   text-align: center;
   font-size: 2rem;
   font-weight: 700;
-  color: rgb(186, 232, 211);
+  color: rgb(0, 0, 0);
   text-shadow: .6rem .4rem 1.1rem rgb(69, 181, 114);
 }
 
@@ -157,4 +157,25 @@ body{
 
 .hidden{
   display: none;
+}
+
+.main-icons:hover{
+  cursor: pointer;
+  width: 21rem;
+}
+
+.card-footer:hover{
+  background:rgba(98, 179, 246, 0.534);
+}
+
+.card-icons:hover{
+  transform: skew(175deg);
+  width: 5.5rem;
+}
+
+
+.test{
+  border: 1rem solid black;
+  color: red;
+  font-size: 2rem;
 }
