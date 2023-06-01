@@ -75,8 +75,8 @@ body{
 .project-card {
   display: flex;
   flex-direction: column;
-  width: 300px;
-  min-width: 300px;
+  flex: 1 0 300px;
+  max-width: 300px;
   background-color: rgb(47, 84, 101);
   border: 2px solid silver;
   border-radius: 12px;
@@ -94,6 +94,7 @@ body{
 
 .card-footer {
   border-radius: 0px 0px 8px 8px;
+  justify-content: center;
 }
 
 .card-title {

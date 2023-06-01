@@ -28,7 +28,7 @@ function getProjectHtml() {
           <a href="${project.online}" target="_blank">
             <img
               class="card-icons"
-              src="${project.icon}"
+              src="${project.hosticon}"
               alt="icon for the hosting server"
             >
           </a>
@@ -39,7 +39,7 @@ function getProjectHtml() {
           <a href="${project.github}" target="_blank">
             <img
               class="card-icons"
-              src="${project.icon}"
+              src="${project.giticon}"
               alt="icon for github"
             >
           </a>
