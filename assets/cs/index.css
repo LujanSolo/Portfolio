@@ -38,6 +38,7 @@ body{
   justify-content: center;
   gap: 3rem;
   padding-right: 2rem;
+  margin: 5rem 0;
 }
 
 .main-icons{
@@ -61,7 +62,7 @@ body{
 .profile-pic{
   margin: 0;
   padding: 0;
-  width: 21rem;
+  width: 20rem;
   border-radius: 20rem;
   border: .2rem solid rgb(132, 173, 189);
   box-shadow: .1rem .1rem 10rem 1rem rgb(131, 188, 189);
@@ -159,9 +160,12 @@ body{
   display: none;
 }
 
-.main-icons:hover{
+.main-icons:hover,
+.profile-pic:hover {
   cursor: pointer;
   width: 21rem;
+  transition: .2s;
+  /* transition: width 1s; */
 }
 
 .card-footer:hover{

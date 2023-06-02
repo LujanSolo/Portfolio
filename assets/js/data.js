@@ -7,7 +7,8 @@ export const projectsArray = [
     online: "https://stormy-sands-64982.herokuapp.com/",
     github: "https://github.com/Proper-Stevo/SpaceInvaders",
     hosticon: "assets/images/heroku.png",
-    giticon: "assets/images/github-logo.png"
+    giticon: "assets/images/github-logo.png",
+    bootstrap: true
   },
   {
     id: 2,
@@ -17,7 +18,8 @@ export const projectsArray = [
     online: "https://impulse-the-game.herokuapp.com/",
     github: "https://github.com/LujanSolo/Impulse",
     hosticon: "assets/images/heroku.png",
-    giticon: "assets/images/github-logo.png"
+    giticon: "assets/images/github-logo.png",
+    bootstrap: true
     
   },
   {
@@ -28,7 +30,8 @@ export const projectsArray = [
     online: "https://camilleyong.github.io/the-catered-gamer/",
     github: "https://github.com/camilleyong/the-catered-gamer",
     hosticon: "assets/images/github-logo.png",
-    giticon: "assets/images/github-logo.png"
+    giticon: "assets/images/github-logo.png",
+    bootstrap: true
   },
   {
     id: 4,
@@ -38,7 +41,8 @@ export const projectsArray = [
     online: "https://lujansolo.github.io/workday-scheduler/",
     github: "https://github.com/LujanSolo/workday-scheduler",
     hosticon: "assets/images/github-logo.png",
-    giticon: "assets/images/github-logo.png"
+    giticon: "assets/images/github-logo.png",
+    bootstrap: true
   },
   {
     id: 5,
@@ -48,6 +52,7 @@ export const projectsArray = [
     online: "https://shoutoutyourfriends.netlify.app/",
     github: "https://github.com/LujanSolo/shout-out",
     hosticon: "assets/images/netlify2.png",
-    giticon: "assets/images/github-logo.png"
+    giticon: "assets/images/github-logo.png",
+    bootstrap: false
   }
 ]
