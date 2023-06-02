@@ -6,7 +6,7 @@
 
 html {
   font-size: 62.5%;
-  background: rgb(27, 47, 47);
+  background: rgb(27, 36, 47);
 }
 
 body {
@@ -84,7 +84,7 @@ button:hover {
   font-size: 2rem;
   font-weight: 700;
   color: rgb(0, 0, 0);
-  text-shadow: 0.6rem 0.4rem 1.1rem rgb(69, 181, 114);
+  text-shadow: 0.6rem 0.4rem 1.1rem rgb(69, 181, 179);
 }
 
 /* PROJECT CARD SECTION */
