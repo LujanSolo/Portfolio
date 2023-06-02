@@ -16,7 +16,7 @@ document.addEventListener('click', (e)=>{
   }
 });
 
-function handleProjectsClick(ii){
+function handleProjectsClick(ii){https://web-dev-lujan.netlify.app/
   document.getElementById('projects').classList.toggle('hidden');
   document.getElementById('proj-btn-div').classList.toggle('hidden');
   hideHero();

@@ -39,14 +39,11 @@ button:hover {
   justify-content: space-evenly;
 }
 
-.row-1 {
-  margin-left: 4rem;
-}
-
 .about-row {
   display: flex;
   align-items: center;
   justify-content: center;
+  max-width: 900px;
   gap: 3rem;
   padding-right: 2rem;
   margin: 5rem 0;
@@ -75,8 +72,6 @@ button:hover {
 }
 
 .profile-pic {
-  margin: 0;
-  padding: 0;
   width: 20rem;
   border-radius: 20rem;
   border: 0.2rem solid rgb(132, 173, 189);
@@ -84,7 +79,6 @@ button:hover {
 }
 
 .icon-text {
-  text-align: center;
   font-size: 2rem;
   font-weight: 700;
   color: rgb(0, 0, 0);
@@ -179,7 +173,7 @@ button:hover {
   cursor: pointer;
   width: 21rem;
   transition: 0.2s;
-  /* transition: width 1s; */
+  transition: width .2s;
 }
 
 .card-footer:hover {
