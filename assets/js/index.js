@@ -8,6 +8,9 @@ document.addEventListener('click', (e)=>{
     console.log('clicked')
     handleAboutClick(e.target.dataset.about)
   }
+  else if(e.target.dataset.back){
+    handleBackClick(e.target.dataset.back);
+  }
 });
 
 function handleProjectsClick(ii){
@@ -18,6 +21,10 @@ function handleProjectsClick(ii){
 function handleAboutClick(ii){
   document.getElementById('about-me').classList.toggle('hidden');
   hideHero();
+}
+
+function handleBackClick(ii){
+  document.getElementById('hero').classList.toggle('hidden');
 }
 
 function hideHero(){
