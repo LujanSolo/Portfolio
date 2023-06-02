@@ -1,38 +1,49 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html{
+html {
   font-size: 62.5%;
-  background: rgb(33, 57, 57);
+  background: rgb(27, 47, 47);
 }
 
-body{
-  font-family: 'Space Grotesk', monospace, sans-serif;
+body {
+  font-family: "Space Grotesk", monospace, sans-serif;
   max-width: 960px;
-  margin: 5rem auto;
+  margin: 10rem auto;
 }
 
-.row{
-  /* padding: 1rem; */
+header {
+  display: flex;
+  justify-content: center;
 }
 
-.icon-row{
+button {
+  font-family: "Space Grotesk", monospace;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 0.2rem 1rem;
+  border-radius: 2rem;
+}
+
+button:hover {
+  background-color: rgb(208, 204, 204);
+  color: rgb(48, 116, 85);
+  box-shadow: 0.2rem 0.11rem 1rem rgb(136, 205, 93);
+}
+
+.icon-row {
   display: flex;
   justify-content: space-evenly;
 }
 
-.row-1{
+.row-1 {
   margin-left: 4rem;
 }
 
-.row-3{
-  /* margin-left: 3rem; */
-}
-
-.about-row{
+.about-row {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,13 +52,17 @@ body{
   margin: 5rem 0;
 }
 
-.main-icons{
+.main-icons {
   width: 20rem;
   margin: 1rem;
 }
 
-.glass-effect{
-  background: linear-gradient(10deg, rgba(186, 232, 211, 0.102), rgba(255, 255, 255, 0));
+.glass-effect {
+  background: linear-gradient(
+    10deg,
+    rgba(186, 232, 211, 0.102),
+    rgba(255, 255, 255, 0)
+  );
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
   box-shadow: 0 8px 32px 8 rgb(19, 2, 106);
@@ -55,25 +70,25 @@ body{
   border-radius: 10px;
 }
 
-.round{
+.round {
   border-radius: 50%;
 }
 
-.profile-pic{
+.profile-pic {
   margin: 0;
   padding: 0;
   width: 20rem;
   border-radius: 20rem;
-  border: .2rem solid rgb(132, 173, 189);
-  box-shadow: .1rem .1rem 10rem 1rem rgb(131, 188, 189);
+  border: 0.2rem solid rgb(132, 173, 189);
+  box-shadow: 0.1rem 0.1rem 10rem 1rem rgb(131, 188, 189);
 }
 
-.icon-text{
+.icon-text {
   text-align: center;
   font-size: 2rem;
   font-weight: 700;
   color: rgb(0, 0, 0);
-  text-shadow: .6rem .4rem 1.1rem rgb(69, 181, 114);
+  text-shadow: 0.6rem 0.4rem 1.1rem rgb(69, 181, 114);
 }
 
 /* PROJECT CARD SECTION */
@@ -146,17 +161,16 @@ body{
   line-height: 1rem;
 }
 
-.card-icons{
+.card-icons {
   width: 5rem;
   padding: 1rem;
 }
 
-.icon-desc{
+.icon-desc {
   font-size: 1.2rem;
-  
 }
 
-.hidden{
+.hidden {
   display: none;
 }
 
@@ -164,22 +178,37 @@ body{
 .profile-pic:hover {
   cursor: pointer;
   width: 21rem;
-  transition: .2s;
+  transition: 0.2s;
   /* transition: width 1s; */
 }
 
-.card-footer:hover{
-  background:rgba(98, 179, 246, 0.534);
+.card-footer:hover {
+  background: rgba(98, 179, 246, 0.534);
 }
 
-.card-icons:hover{
+.card-icons:hover {
   transform: skew(175deg);
   width: 5.5rem;
 }
 
+.about-me{
+  max-width: 60rem;
+  margin: 1rem auto;
+  color: #ffffff;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
 
-.test{
-  border: 1rem solid black;
-  color: red;
-  font-size: 2rem;
+li {
+  margin: 2rem 4rem;
+}
+
+.about-header{
+  margin: 3rem;
+}
+
+span{
+  background-color: rgba(104, 134, 120, 0.611);
+  padding: 2rem;
+  border-radius: 50%;
 }

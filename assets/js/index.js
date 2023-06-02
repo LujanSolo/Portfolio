@@ -8,24 +8,39 @@ document.addEventListener('click', (e)=>{
     console.log('clicked')
     handleAboutClick(e.target.dataset.about)
   }
-  else if(e.target.dataset.back){
-    handleBackClick(e.target.dataset.back);
+  else if(e.target.dataset.projback){
+    handleProjectsBackClick(e.target.dataset.projback);
+  }
+  else if(e.target.dataset.aboutback){
+    handleAboutBackClick(e.target.dataset.aboutback);
   }
 });
 
 function handleProjectsClick(ii){
   document.getElementById('projects').classList.toggle('hidden');
+  document.getElementById('proj-btn-div').classList.toggle('hidden');
   hideHero();
+}
+
+function handleProjectsBackClick(ii){
+  document.getElementById('hero').classList.toggle('hidden');
+  document.getElementById('proj-btn-div').classList.toggle('hidden');
+  document.getElementById('projects').classList.toggle('hidden');
 }
 
 function handleAboutClick(ii){
   document.getElementById('about-me').classList.toggle('hidden');
+  document.getElementById('about-btn-div').classList.toggle('hidden');
   hideHero();
 }
 
-function handleBackClick(ii){
+function handleAboutBackClick(ii){
   document.getElementById('hero').classList.toggle('hidden');
+  document.getElementById('about-btn-div').classList.toggle('hidden');
+  document.getElementById('about-me').classList.toggle('hidden');
 }
+
+
 
 function hideHero(){
   document.getElementById('hero').setAttribute('class', 'hidden');
