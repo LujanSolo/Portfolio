@@ -12,10 +12,16 @@ document.addEventListener('click', (e)=>{
 
 function handleProjectsClick(ii){
   document.getElementById('projects').classList.toggle('hidden');
+  hideHero();
 }
 
 function handleAboutClick(ii){
-  document.getElementById('about-me').classList.toggle('hidden')
+  document.getElementById('about-me').classList.toggle('hidden');
+  hideHero();
+}
+
+function hideHero(){
+  document.getElementById('hero').setAttribute('class', 'hidden');
 }
 
 function getProjectHtml() {
