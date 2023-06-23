@@ -16,7 +16,7 @@ document.addEventListener('click', (e)=>{
   }
 });
 
-function handleProjectsClick(ii){https://web-dev-lujan.netlify.app/
+function handleProjectsClick(ii){
   document.getElementById('projects').classList.toggle('hidden');
   document.getElementById('proj-btn-div').classList.toggle('hidden');
   hideHero();
@@ -49,7 +49,7 @@ function hideHero(){
 function getProjectHtml() {
   let projectHtml = '';
 
-  projectsArray.forEach((project) => {
+  projectsArray.map((project) => {
     projectHtml += `
       <div class="project-card">
       
