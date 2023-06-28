@@ -12,7 +12,7 @@ html {
 body {
   font-family: "Space Grotesk", monospace, sans-serif;
   max-width: 960px;
-  margin: 10rem auto;
+  margin: 10em auto;
 }
 
 header {
@@ -22,16 +22,16 @@ header {
 
 button {
   font-family: "Space Grotesk", monospace;
-  font-size: 1.8rem;
+  font-size: 1.8em;
   font-weight: 700;
-  padding: 0.2rem 1rem;
-  border-radius: 2rem;
+  padding: 0.2em 1em;
+  border-radius: 2em;
 }
 
 button:hover {
   background-color: rgb(208, 204, 204);
   color: rgb(48, 116, 85);
-  box-shadow: 0.2rem 0.11rem 1rem rgb(136, 205, 93);
+  box-shadow: 0.2em 0.11em 1em rgb(136, 205, 93);
 }
 
 .row-1{
@@ -43,17 +43,17 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 3rem;
-  padding-right: 2rem;
-  margin: 5rem 0;
+  gap: 3em;
+  padding-right: 2em;
+  margin: 5em 0;
 }
 
 .row-3{
   text-align: center;
 }
 .main-icons {
-  width: 20rem;
-  margin: 1rem;
+  width: 20em;
+  margin: 1em;
 }
 
 /* .glass-effect {
@@ -74,17 +74,17 @@ button:hover {
 }
 
 .profile-pic {
-  width: 20rem;
-  border-radius: 20rem;
-  border: 0.2rem solid rgb(132, 173, 189);
-  box-shadow: 0.1rem 0.1rem 10rem 1rem rgb(131, 188, 189);
+  width: 20em;
+  border-radius: 20em;
+  border: 0.2em solid rgb(132, 173, 189);
+  box-shadow: 0.1em 0.1em 10em 1em rgb(131, 188, 189);
 }
 
 .icon-text {
-  font-size: 2rem;
+  font-size: 2em;
   font-weight: 700;
   color: rgb(0, 0, 0);
-  text-shadow: 0.6rem 0.4rem 1.1rem rgb(69, 181, 179);
+  text-shadow: 0.6em 0.4em 1.1em rgb(69, 181, 179);
 }
 
 /* PROJECT CARD SECTION */
@@ -94,7 +94,7 @@ button:hover {
   flex-wrap: wrap;
   gap: 30px;
   overflow-x: auto;
-  margin: 3rem;
+  margin: 3em;
 }
 
 .project-card {
@@ -102,19 +102,20 @@ button:hover {
   flex-direction: column;
   flex: 1 0 300px;
   max-width: 300px;
-  background-color: rgb(47, 84, 101);
-  border: 1px solid rgba(203, 228, 252, 0.759);
+  background-color: rgba(73, 130, 168, 0.3);
+  border: 1px solid rgb(154, 156, 158);
   border-radius: 12px;
+  filter: contrast(110%);
 }
 
 .card-header {
-  margin-bottom: 1rem;
+  margin-bottom: 1em;
   border-radius: 8px 8px 0px 0px;
 }
 
 .card-header,
 .card-footer {
-  background-color: rgb(54, 125, 112);
+  background-color: rgb(26, 110, 170);
 }
 
 .card-footer {
@@ -125,7 +126,7 @@ button:hover {
 .card-title {
   display: flex;
   justify-content: center;
-  color: rgb(190, 199, 203);
+  color: rgb(255, 255, 255);
   font-size: 20px;
   font-weight: 300;
   padding: 8px;
@@ -133,37 +134,37 @@ button:hover {
 
 .card-image {
   height: 230px;
-  margin: 0rem 0.5rem 0rem 0.5rem;
+  margin: 0em 0.5em 0em 0.5em;
   border: 1px solid rgb(234, 234, 230);
 }
 
 .card-desc {
   display: flex;
   align-items: center;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 300;
   line-height: 2rem;
-  margin: 2rem;
+  margin: 2em;
   height: 120px;
-  color: rgb(208, 204, 204);
+  color: rgb(235, 240, 246);
 }
 
 .card-footer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 1rem;
+  padding: 1em;
   color: white;
-  line-height: 1rem;
+  line-height: 1em;
 }
 
 .card-icons {
-  width: 5rem;
-  padding: 1rem;
+  width: 5em;
+  padding: 1em;
 }
 
 .icon-desc {
-  font-size: 1.2rem;
+  font-size: 1.2em;
 }
 
 .hidden {
@@ -173,7 +174,7 @@ button:hover {
 .main-icons:hover,
 .profile-pic:hover {
   cursor: pointer;
-  width: 21rem;
+  width: 21em;
   transition: 0.2s;
   transition: width .2s;
 }
@@ -184,43 +185,43 @@ button:hover {
 
 .card-icons:hover {
   transform: skew(175deg);
-  width: 5.5rem;
+  width: 5.5em;
 }
 
 .about-me{
   max-width: 90%;
-  margin: 1rem auto;
-  padding: 4rem;
+  margin: 1em auto;
+  padding: 4em;
   color: #ffffff;
-  font-size: 1.6rem;
+  font-size: 1.6em;
   line-height: 1.5;
   font-weight: 300;
 }
 
 li {
-  margin: 2rem 4rem;
+  margin: 2em 4em;
 }
 
 .about-header{
-  margin: 0 0 5rem 2rem;
+  margin: 0 0 5em 2em;
 }
 
 span{
   background-color: rgba(104, 134, 120, 0.611);
-  padding: 2rem;
+  padding: 2em;
   border-radius: 50%;
 }
 
 .resume-link{
   text-align: center;
-  margin-top: 5rem;
-  font-size: 2.3rem;
+  margin-top: 5em;
+  font-size: 2.3em;
   color: rgb(223, 247, 240);
 }
 
 .resume-link:hover{
-  font-size:2.5rem;
-  text-shadow: .4rem .4rem 1rem rgb(171, 171, 204);
+  font-size:2.5em;
+  text-shadow: .4em .4em 1em rgb(171, 171, 204);
 }
 
 a{
