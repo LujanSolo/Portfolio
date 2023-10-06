@@ -54,7 +54,7 @@ function renderProjects() {
 document.addEventListener('click', (e) => {
   if (e.target.dataset.project) {
     localStorage.setItem('renderProjects', 'true');
-    location.href = '../../projects.html';
+    location.href = 'projects.html';
   }
   else if (e.target.dataset.about) {
     location.href = '../../about.html';
