@@ -15,9 +15,17 @@ body {
   margin: 10em auto;
 }
 
-header {
-  display: flex;
+header ul {
+  display: inline-flex;
+  flex-wrap: wrap;
   justify-content: center;
+  list-style-type: none;
+  font-size: 2rem;
+  color: white;
+}
+
+a {
+  color: white;
 }
 
 button {
@@ -56,6 +64,19 @@ button:hover {
   margin: 1em;
   filter: contrast(150%);
 }
+
+/* .glass-effect {
+  background: linear-gradient(
+    10deg,
+    rgba(186, 232, 211, 0.102),
+    rgba(255, 255, 255, 0)
+  );
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px 8 rgb(19, 2, 106);
+  border: 1px solid rgba(33, 30, 30, 0.518);
+  border-radius: 10px;
+} */
 
 .round {
   border-radius: 50%;
@@ -192,7 +213,7 @@ li {
 
 span {
   background-color: rgba(42, 61, 63, 0.914);
-  padding: 0em 0.55em .2em 0.55em;
+  padding: 0.3em 0.5em 1em 0.5em;
   border-radius: 10% 10% 50% 50%;
 }
 
