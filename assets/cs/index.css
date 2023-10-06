@@ -56,12 +56,12 @@ button:hover {
   align-items: center;
   justify-content: center;
   gap: 3em;
-  padding-right: 2em;
   margin: 5em 0;
 }
 
 .row-3 {
   text-align: center;
+  padding-left: 2em;
 }
 
 .main-icons {
@@ -224,4 +224,12 @@ span {
 
 a {
   text-decoration: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .row-1, .about-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  
 }
