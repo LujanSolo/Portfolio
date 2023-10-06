@@ -22,7 +22,7 @@ header {
 header ul {
   display: inline-flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   list-style-type: none;
   font-size: 2rem;
   color: white;
