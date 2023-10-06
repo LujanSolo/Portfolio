@@ -63,6 +63,7 @@ button:hover {
 .row-3 {
   text-align: center;
 }
+
 .main-icons {
   width: 20em;
   margin: 1em;
@@ -195,7 +196,7 @@ button:hover {
 }
 
 li {
-  margin: .5em 4em;
+  margin: 0.5em 4em;
 }
 
 .about-header {

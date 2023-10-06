@@ -66,7 +66,6 @@ window.addEventListener('load', () => {
   const shouldRenderProjects = localStorage.getItem('renderProjects');
 
   if (shouldRenderProjects === 'true') {
-    // localStorage.removeItem('renderProjects');
     renderProjects();
   }
 });
