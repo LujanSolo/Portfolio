@@ -34,7 +34,7 @@ button:hover {
   box-shadow: 0.2em 0.11em 1em rgb(136, 205, 93);
 }
 
-.row-1{
+.row-1 {
   display: flex;
   justify-content: space-evenly;
 }
@@ -48,7 +48,7 @@ button:hover {
   margin: 5em 0;
 }
 
-.row-3{
+.row-3 {
   text-align: center;
 }
 .main-icons {
@@ -56,19 +56,6 @@ button:hover {
   margin: 1em;
   filter: contrast(150%);
 }
-
-/* .glass-effect {
-  background: linear-gradient(
-    10deg,
-    rgba(186, 232, 211, 0.102),
-    rgba(255, 255, 255, 0)
-  );
-  -webkit-backdrop-filter: blur(20px);
-  backdrop-filter: blur(20px);
-  box-shadow: 0 8px 32px 8 rgb(19, 2, 106);
-  border: 1px solid rgba(33, 30, 30, 0.518);
-  border-radius: 10px;
-} */
 
 .round {
   border-radius: 50%;
@@ -168,16 +155,12 @@ button:hover {
   font-size: 1.2em;
 }
 
-.hidden {
-  display: none;
-}
-
 .main-icons:hover,
 .profile-pic:hover {
   cursor: pointer;
   width: 21em;
   transition: 0.2s;
-  transition: width .2s;
+  transition: width 0.2s;
 }
 
 .card-footer:hover {
@@ -189,7 +172,7 @@ button:hover {
   width: 5.5em;
 }
 
-.about-me{
+.about-me {
   max-width: 90%;
   margin: 1em auto;
   padding: 4em;
@@ -203,28 +186,29 @@ li {
   margin: 2em 4em;
 }
 
-.about-header{
-  margin: 0 0 5em 2em;
+.about-header {
+  margin: 0 0 2em 2em;
 }
 
-span{
-  background-color: rgba(104, 134, 120, 0.611);
-  padding: 2em;
-  border-radius: 50%;
+span {
+  background-color: rgba(42, 61, 63, 0.914);
+  padding: 0em 0.55em .2em 0.55em;
+  border-radius: 10% 10% 50% 50%;
 }
 
-.resume-link{
+.resume-link {
   text-align: center;
-  margin-top: 5em;
+  margin-top: 1em;
   font-size: 2.3em;
   color: rgb(223, 247, 240);
+  text-shadow: 0.3em 0.2em 0.5em rgb(69, 181, 179);
 }
 
-.resume-link:hover{
-  font-size:2.5em;
-  text-shadow: .4em .4em 1em rgb(171, 171, 204);
+.resume-link:hover {
+  font-size: 2.5em;
+  text-shadow: 0.4em 0.4em 1em rgb(171, 171, 204);
 }
 
-a{
+a {
   text-decoration: none;
 }

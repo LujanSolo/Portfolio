@@ -1,50 +1,37 @@
 import { projectsArray } from "./data.js";
 
-document.addEventListener('click', (e)=>{
-  if(e.target.dataset.project){
-    handleProjectsClick(e.target.dataset.project)
-  }
-  else if(e.target.dataset.about){
-    console.log('clicked')
-    handleAboutClick(e.target.dataset.about)
-  }
-  else if(e.target.dataset.projback){
-    handleProjectsBackClick(e.target.dataset.projback);
-  }
-  else if(e.target.dataset.aboutback){
-    handleAboutBackClick(e.target.dataset.aboutback);
-  }
-});
 
-function handleProjectsClick(ii){
-  document.getElementById('projects').classList.toggle('hidden');
-  document.getElementById('proj-btn-div').classList.toggle('hidden');
-  hideHero();
-}
+// location.href = thatHtmlPage
 
-function handleProjectsBackClick(ii){
-  document.getElementById('hero').classList.toggle('hidden');
-  document.getElementById('proj-btn-div').classList.toggle('hidden');
-  document.getElementById('projects').classList.toggle('hidden');
-}
+// function handleProjectsClick(ii) {
+//   document.getElementById('projects').classList.toggle('hidden');
+//   document.getElementById('proj-btn-div').classList.toggle('hidden');
+//   hideHero();
+// }
 
-function handleAboutClick(ii){
-  document.getElementById('about-me').classList.toggle('hidden');
-  document.getElementById('about-btn-div').classList.toggle('hidden');
-  hideHero();
-}
+// function handleProjectsBackClick(ii) {
+//   document.getElementById('hero').classList.toggle('hidden');
+//   document.getElementById('proj-btn-div').classList.toggle('hidden');
+//   document.getElementById('projects').classList.toggle('hidden');
+// }
 
-function handleAboutBackClick(ii){
-  document.getElementById('hero').classList.toggle('hidden');
-  document.getElementById('about-btn-div').classList.toggle('hidden');
-  document.getElementById('about-me').classList.toggle('hidden');
-}
+// function handleAboutClick(ii) {
+//   document.getElementById('about-me').classList.toggle('hidden');
+//   document.getElementById('about-btn-div').classList.toggle('hidden');
+//   hideHero();
+// }
+
+// function handleAboutBackClick(ii) {
+//   document.getElementById('hero').classList.toggle('hidden');
+//   document.getElementById('about-btn-div').classList.toggle('hidden');
+//   document.getElementById('about-me').classList.toggle('hidden');
+// }
 
 
 
-function hideHero(){
-  document.getElementById('hero').setAttribute('class', 'hidden');
-}
+// function hideHero() {
+//   document.getElementById('hero').setAttribute('class', 'hidden');
+// }
 
 function getProjectHtml() {
   let projectHtml = '';
@@ -94,8 +81,27 @@ function getProjectHtml() {
 };
 
 
-function render() {
+function renderProjects() {
   document.getElementById('projects').innerHTML = getProjectHtml();
 }
 
-render()
+document.addEventListener('click', (e) => {
+  if (e.target.dataset.project) {
+    localStorage.setItem('renderProjects', 'true');
+    location.href = '../../project.html';
+  }
+  else if (e.target.dataset.about) {
+    location.href = '../../about.html';
+  }
+});
+
+// Event Listener for Projects Page - to render if page is loaded
+window.addEventListener('load', () => {
+  const shouldRenderProjects = localStorage.getItem('renderProjects');
+
+  if (shouldRenderProjects === 'true') {
+    // localStorage.removeItem('renderProjects');
+    renderProjects();
+  }
+})
+
