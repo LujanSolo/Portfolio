@@ -16,6 +16,7 @@ function getProjectHtml() {
         <img
           src="${project.img}"
           class="card-image"
+          loading="lazy"
         >
 
         <h3 class="card-desc">
