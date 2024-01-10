@@ -101,12 +101,11 @@ button:hover {
 .project-card {
   display: flex;
   flex-direction: column;
-  flex: 1 0 300px;
+  justify-content: center;
   max-width: 300px;
   background-color: rgba(73, 130, 168, 0.3);
   border: 1px solid rgb(154, 156, 158);
   border-radius: 12px;
-  filter: contrast(110%);
 }
 
 .card-header {
@@ -134,9 +133,10 @@ button:hover {
 }
 
 .card-image {
+
   height: 230px;
-  margin: 0em 0.5em 0em 0.5em;
   border: 1px solid rgb(234, 234, 230);
+  margin: 5px;
 }
 
 .card-desc {

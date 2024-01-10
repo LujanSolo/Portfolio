@@ -6,19 +6,19 @@ function getProjectHtml() {
   projectsArray.map((project) => {
     projectHtml += `
       <div class="project-card">
-      
+        
         <div class="card-header">
           <h2 class="card-title">
             ${project.title}
           </h2>
         </div>
-
+        
         <img
           src="${project.img}"
           class="card-image"
           loading="lazy"
         >
-
+        </a>
         <h3 class="card-desc">
           ${project.desc}
         </h3>
