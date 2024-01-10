@@ -23,11 +23,11 @@ export const projectsArray = [
   },
   {
     id: 3,
-    title: "Shout-Out",
-    img: "assets/images/shoutout.png",
-    desc: "A Firebase app where users can give positive feedback to others whom they feel deserve recognition, encouragement, or praise!",
-    online: "https://shoutoutyourfriends.netlify.app/",
-    github: "https://github.com/LujanSolo/shout-out",
+    title: "Roman Numeral Converter",
+    img: "assets/images/roman-converter.png",
+    desc: "A quick exercise in recursion in this app, which changes any number from 1 to 3999 to its Roman Numeral Equivalent. Special thanks to freecodeCamp.org",
+    online: "https://glistening-hamster-8e33e1.netlify.app/",
+    github: "https://github.com/LujanSolo/roman-numeral-converter",
     hosticon: "assets/images/netlify2.png",
     giticon: "assets/images/github-logo.png",
     bootstrap: false
@@ -42,7 +42,7 @@ export const projectsArray = [
     hosticon: "assets/images/heroku.png",
     giticon: "assets/images/github-logo.png",
     bootstrap: true
-    
+
   },
   {
     id: 5,
@@ -55,7 +55,7 @@ export const projectsArray = [
     giticon: "assets/images/github-logo.png",
     bootstrap: true
   },
-  
+
   {
     id: 6,
     title: "The Catered Gamer",
