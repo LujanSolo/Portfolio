@@ -1,6 +1,17 @@
 export const projectsArray = [
   {
     id: 1,
+    title: "Roman Numeral Converter",
+    img: "assets/images/roman-converter.png",
+    desc: "A quick exercise in recursion in this app, which changes any number from 1 to 3999 to its Roman Numeral Equivalent. Special thanks to freecodeCamp.org",
+    online: "https://glistening-hamster-8e33e1.netlify.app/",
+    github: "https://github.com/LujanSolo/roman-numeral-converter",
+    hosticon: "assets/images/netlify2.png",
+    giticon: "assets/images/github-logo.png",
+    bootstrap: false
+  },
+  {
+    id: 2,
     title: "Orbital Odyssey",
     img: "assets/images/odyssey.png",
     desc: "Educational app that provides data on the planets of the Solar System, with secure login and client database for note keeping.",
@@ -11,23 +22,12 @@ export const projectsArray = [
     bootstrap: true
   },
   {
-    id: 2,
+    id: 3,
     title: "QuickBites",
     img: "assets/images/quickbites.png",
     desc: "Quickly order from the 3 basic food groups. Pseudo checkout and pay modals included.",
     online: "https://grub-order-app.netlify.app/",
     github: "https://github.com/LujanSolo/food-ordering-app",
-    hosticon: "assets/images/netlify2.png",
-    giticon: "assets/images/github-logo.png",
-    bootstrap: false
-  },
-  {
-    id: 3,
-    title: "Roman Numeral Converter",
-    img: "assets/images/roman-converter.png",
-    desc: "A quick exercise in recursion in this app, which changes any number from 1 to 3999 to its Roman Numeral Equivalent. Special thanks to freecodeCamp.org",
-    online: "https://glistening-hamster-8e33e1.netlify.app/",
-    github: "https://github.com/LujanSolo/roman-numeral-converter",
     hosticon: "assets/images/netlify2.png",
     giticon: "assets/images/github-logo.png",
     bootstrap: false
@@ -42,7 +42,6 @@ export const projectsArray = [
     hosticon: "assets/images/heroku.png",
     giticon: "assets/images/github-logo.png",
     bootstrap: true
-
   },
   {
     id: 5,
@@ -55,7 +54,6 @@ export const projectsArray = [
     giticon: "assets/images/github-logo.png",
     bootstrap: true
   },
-
   {
     id: 6,
     title: "The Catered Gamer",
