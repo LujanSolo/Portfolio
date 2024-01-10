@@ -1,100 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="assets/cs/index.css" />
-    <title>WebDevJamie:Homepage</title>
-  </head>
 
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li>
-            <a href="index.html">Homepage</a>
-          </li>
-          <li>
-            <a href="projects.html" data-project="project-btn">Projects</a>
-          </li>
-          <li>
-            <a href="about.html" data-about>About</a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/lujansolo/" target="_blank"
-              >LinkedIn</a
-            >
-          </li>
-          <li>
-            <a href="https://github.com/LujanSolo" target="_blank">GitHub</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/cs/index.css" />
+  <title>WebDevJamie:Homepage</title>
+</head>
 
-    <section class="hero test-container" id="hero">
-      <div class="icon-row row-1">
-        <img
-          data-project="project-btn"
-          src="/assets/images/proj-icon.png"
-          class="main-icons"
-          alt="a custom-made icon for developer's projects"
-          loading="lazy"
-        />
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Homepage</a>
+        </li>
+        <li>
+          <a href="projects.html" data-project="project-btn">Projects</a>
+        </li>
+        <li>
+          <a href="about.html" data-about>About</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/lujansolo/" target="_blank">LinkedIn</a>
+        </li>
+        <li>
+          <a href="https://github.com/LujanSolo" target="_blank">GitHub</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-        <a href="https://www.linkedin.com/in/lujansolo/" target="_blank">
-          <img
-            src="/assets/images/linkedin.png"
-            class="main-icons"
-            alt="a custom-made github icon"
-            loading="lazy"
-          />
-        </a>
+  <section class="hero test-container" id="hero">
+    <div class="icon-row row-1">
+      <img data-project="project-btn" src="/assets/images/proj-icon.png" class="main-icons"
+        alt="a custom-made icon for developer's projects" loading="lazy" />
+
+      <a href="https://www.linkedin.com/in/lujansolo/" target="_blank">
+        <img src="/assets/images/linkedin.png" class="main-icons" alt="a custom-made github icon" loading="lazy" />
+      </a>
+    </div>
+
+    <div class="about-row">
+      <div class="icon-text">
+        <h2>JAMIE</h2>
+        <h2>LUJAN</h2>
       </div>
 
-      <div class="about-row">
-        <div class="icon-text">
-          <h2>JAMIE</h2>
-          <h2>LUJAN</h2>
-        </div>
+      <img id="profile-pic" src="/assets/images/lujan-profile2.png" class="profile-pic" loading="lazy"
+        alt="Jamie Lujan, the developer" data-about="about-btn" />
 
-        <img
-          id="profile-pic"
-          src="/assets/images/lujan-profile2.png"
-          class="profile-pic"
-          loading="lazy"
-          alt="Jamie Lujan, the developer"
-          data-about="about-btn"
-        />
-
-        <div class="icon-text">
-          <h2>WEB</h2>
-          <h2>DEV</h2>
-        </div>
+      <div class="icon-text">
+        <h2>WEB</h2>
+        <h2>DEV</h2>
       </div>
+    </div>
 
-      <div class="icon-row row-3">
-        <a href="https://github.com/LujanSolo" target="_blank">
-          <img
-            src="/assets/images/github.png"
-            class="main-icons"
-            loading="lazy"
-            alt="a custom-made github icon"
-          />
-        </a>
-      </div>
-    </section>
+    <div class="icon-row row-3">
+      <a href="https://github.com/LujanSolo" target="_blank">
+        <img src="/assets/images/github.png" class="main-icons" loading="lazy" alt="a custom-made github icon" />
+      </a>
+    </div>
+  </section>
 
-    <footer>
-      Iconography art and interpretive design by Jamie Lujan
-    </footer>
-    <script src="assets/js/index.js" type="module"></script>
-  </body>
+  <footer>
+    iconography drawn by Jamie Lujan
+  </footer>
+  <script src="assets/js/index.js" type="module"></script>
+</body>
+
 </html>
