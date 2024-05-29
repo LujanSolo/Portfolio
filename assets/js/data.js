@@ -6,7 +6,7 @@ export const projectsArray = [
     desc: "A single page site which provides the user basic info, trailer, and streaming links.",
     online: "https://theprank-movie.netlify.app/",
     github: "https://github.com/lujansolo/prank-site-spe",
-    hosticon: "assets/images/github-logo.png",
+    hosticon: "assets/images/netlify2.png",
     giticon: "assets/images/github-logo.png",
     bootstrap: true
   },
