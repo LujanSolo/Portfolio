@@ -15,7 +15,7 @@ function getProjectHtml() {
         <a href="${project.online}" target="_blank" rel="noopener">
         <img
           src="${project.img}"
-          class="card-image"
+          class="card-image img-fluid"
           loading="lazy"
         >
         </a>
