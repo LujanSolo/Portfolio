@@ -22,7 +22,7 @@ export const projectsArray = [
     bootstrap: false
   },
   {
-    id: 2,
+    id: 3,
     title: "Orbital Odyssey",
     img: "assets/images/odyssey.png",
     desc: "Educational app that provides data on the planets of the Solar System, with secure login and client database for note keeping.",
@@ -33,7 +33,7 @@ export const projectsArray = [
     bootstrap: true
   },
   {
-    id: 3,
+    id: 4,
     title: "QuickBites",
     img: "assets/images/quickbites.png",
     desc: "Quickly order from the 3 basic food groups. Pseudo checkout and pay modals included.",
@@ -44,7 +44,7 @@ export const projectsArray = [
     bootstrap: false
   },
   {
-    id: 4,
+    id: 5,
     title: "Impulse!",
     img: "assets/images/impulse.png",
     desc: "A full-stack browser-board game where impulse shopping must be leveraged against money and happiness until the finish line is reached.",
@@ -55,7 +55,7 @@ export const projectsArray = [
     bootstrap: true
   },
   {
-    id: 5,
+    id: 6,
     title: "Workday Scheduler",
     img: "assets/images/workday.gif",
     desc: "Hourly rows from 9am to 5pm help keep you on track through the day. Rows are color coded to represent past/present/future.",
