@@ -12,7 +12,7 @@ function getProjectHtml() {
             ${project.title}
           </h2>
         </div>
-        
+        <a href="${project.online}" target="_blank" rel="noopener">
         <img
           src="${project.img}"
           class="card-image"
