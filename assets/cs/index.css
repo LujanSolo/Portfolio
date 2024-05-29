@@ -101,7 +101,7 @@ button:hover {
 .project-card {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
   max-width: 300px;
   background-color: rgba(73, 130, 168, 0.3);
