@@ -1,6 +1,17 @@
 export const projectsArray = [
   {
     id: 1,
+    title: "Film Website for 'The Prank'",
+    img: "assets/images/prank-poster-sm.jpg",
+    desc: "A single page site which provides the user basic info, trailer, and streaming links.",
+    online: "https://theprank-movie.netlify.app/",
+    github: "https://github.com/lujansolo/prank-site-spe",
+    hosticon: "assets/images/github-logo.png",
+    giticon: "assets/images/github-logo.png",
+    bootstrap: true
+  },
+  {
+    id: 2,
     title: "Roman Numeral Converter",
     img: "assets/images/roman-converter.png",
     desc: "A quick exercise in recursion in this app, which changes any number from 1 to 3999 to its Roman Numeral Equivalent. Special thanks to freecodeCamp.org",
@@ -54,15 +65,5 @@ export const projectsArray = [
     giticon: "assets/images/github-logo.png",
     bootstrap: true
   },
-  {
-    id: 6,
-    title: "The Catered Gamer",
-    img: "assets/images/catered-gamer.png",
-    desc: "Discover and re-discover games from all eras based on user's genre preference and type of gaming platform.",
-    online: "https://camilleyong.github.io/the-catered-gamer/",
-    github: "https://github.com/camilleyong/the-catered-gamer",
-    hosticon: "assets/images/github-logo.png",
-    giticon: "assets/images/github-logo.png",
-    bootstrap: true
-  }
+  
 ]
