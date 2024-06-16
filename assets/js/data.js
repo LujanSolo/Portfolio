@@ -4,7 +4,7 @@ export const projectsArray = [
     title: "Film-site for 'The Prank' starring Academy Award Winner Rita Moreno",
     img: "assets/images/prank-vite.png",
     desc: "A single page site which provides the user basic info, trailer, and streaming links. This webdev is also in the film, oh so briefly.",
-    online: "https://prank-vite.netlify.app",
+    online: "https://theprank-movie.com/",
     github: "https://github.com/lujansolo/prank-vite",
     hosticon: "assets/images/netlify2.png",
     giticon: "assets/images/github-logo.png",
